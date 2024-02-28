@@ -4,6 +4,7 @@ import AccordionLayout from "../layouts/AccordionLayout.astro";
 import Card from "./Card.astro";
 import Projects from "./Projects.astro";
 import NowCard from "./NowCard.astro";
+import TechStack from "./TechStack.astro";
 ---
 
 <ul class="shadow-box">
@@ -70,7 +71,9 @@ import NowCard from "./NowCard.astro";
       Follow my journey on <a href="/" class="text-[#AAC4E7]">Twitter</a>
     </p>
   </AccordionLayout>
-  <AccordionLayout title={"Stack"} icon={"ri:stack-line"} />
+  <AccordionLayout title={"Stack"} icon={"ri:stack-line"}>
+    <TechStack />
+  </AccordionLayout>
 
   <!-- <AccordionLayout title={"Education"} icon={"carbon:education"}>
       {
