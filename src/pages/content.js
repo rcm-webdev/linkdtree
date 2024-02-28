@@ -35,7 +35,7 @@ export const work = [
     from: "2023",
     to: "Present",
     role: "Full-stack Software Engineer + Designer",
-    org: "9Five Studio",
+    org: "95 Designs",
     org_url: "https://100devs.org",
     location: "Spokane, WA (Remote)",
     skills: "Web Development + Web Design",
@@ -45,31 +45,31 @@ export const work = [
 // Projects --> #project section
 export const projects = [
   {
-    from: "2023",
+    from: "2024",
     to: "Present",
     title: "PlantJoy",
     description:
-      "A project to improve safety standards in Quahog by implementing innovative safety measures.",
-    url: "https://projectgriffin.com",
-    tech: "Safety Equipment, Training Programs, Community Outreach",
+      "PlantJoy is a minimal web application designed to help users track their plant care needs using a plant API",
+    url: "/",
+    tech: "Full Stack Application, HTML, Tailwind CSS, JavaScript, Express.js, MongoDB, Passport.js",
   },
   {
-    from: "2023",
-    to: "2022",
+    from: "2024",
+    to: "Present",
     title: "SpellSphere",
     description:
-      "An initiative to promote safety awareness among families in Quahog.",
+      "SpellSphere is a powerful D&D application that provides quick and comprehensive access to spell information using the dnd5eapi.co API",
     url: "https://safefamilyquahog.com",
-    tech: "Workshops, Educational Material, Public Events",
+    tech: "Full Stack Application, React, Express.js, MongoDB, Passport.js, Typehead.js",
   },
   {
-    from: "2020",
-    to: "2021",
-    title: "Road Safety Initiative",
+    from: "2024",
+    to: "Present",
+    title: "Bookworm's Catalog",
     description:
-      "A campaign to enhance road safety and reduce accidents in Quahog.",
+      "Bookworm’s Catalog is an online platform that allows users to organize and manage their personal book collections, providing details about each book and enabling easy searching and tracking.",
     url: "https://roadsafetyquahog.com",
-    tech: "Traffic Analysis, Signage Improvement, Public Awareness",
+    tech: "Full Stack Application, React, Express.js, MongoDB, Passport.js, RESTful API design, Jest (testing framework)",
   },
 ];
 
@@ -167,19 +167,28 @@ export const certificates = [
 // Blogs --> #blogs section
 export const blogs = [
   {
-    date: "12-July, 2023",
+    date: "27-February, 2024",
     url: "/contact-dev",
     title: "Multi-Step Typeform-like integration",
-    description: "Join me in my journey in creating a Typeform-Like form.",
-    publisher: "Yours Truly",
+    description:
+      "Embark on a journey with me as we explore a templated Typeform-Like form within my portfolio.",
+    post: "View Post",
   },
   {
-    date: "25-June, 2023",
-    url: "https://medium.com/",
-    title: "Top 10 Safety Tips for Families",
+    date: "15-January, 2024",
+    url: "https://hashnode.com/",
+    title: "Learning React",
     description:
-      "Learn the best safety practices for families to ensure a secure environment.",
-    publisher: "Safety Monthly",
+      "Learning how React works. Dive into my blog post on builing a Quote Generator. Discover how I summoned wisdom, one quote at a time.",
+    post: "View Post",
+  },
+  {
+    date: "1-March, 2024",
+    url: "https://hashnode.com/",
+    title: "Learning Node.js",
+    description:
+      "Learning how to use Node.js. Explore my blog post to see how I organized a virtual library and brought it to life!.",
+    post: "View Post",
   },
 ];
 
