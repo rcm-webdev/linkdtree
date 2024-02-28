@@ -1,0 +1,183 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<!-- spotify embed -->
+<main>
+  <div class="flex flex-row justify-between items-center">
+    <h2 class="uppercase font-bold">Last Played</h2>
+    <div class="mb-2">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="3em"
+        height="3em"
+        viewBox="0 0 56 56"
+      >
+        <path
+          fill="currentColor"
+          class="pill1 wave1 fill-green-500"
+          d="M24.59 49.574c.96 0 1.664-.726 1.664-1.64V8.066c0-.914-.703-1.64-1.664-1.64c-.938 0-1.64.726-1.64 1.64v39.868c0 .914.702 1.64 1.64 1.64"
+        ></path>
+        <path
+          fill="currentColor"
+          class="pill2 wave2 fill-green-500"
+          d="M38.23 44.887c.938 0 1.641-.75 1.641-1.664V12.777c0-.914-.703-1.664-1.64-1.664c-.938 0-1.665.75-1.665 1.664v30.446c0 .914.727 1.664 1.664 1.664"
+        ></path>
+        <path
+          fill="currentColor"
+          class="pill3 wave3 fill-green-300"
+          d="M17.793 41.09c.938 0 1.64-.727 1.64-1.64v-22.9c0-.913-.703-1.64-1.64-1.64c-.961 0-1.664.727-1.664 1.64v22.9c0 .913.703 1.64 1.664 1.64"
+        ></path>
+        <path
+          fill="currentColor"
+          class="pill4 wave4 fill-green-300"
+          d="M31.41 37.559c.938 0 1.664-.727 1.664-1.641V19.082c0-.914-.726-1.64-1.664-1.64c-.937 0-1.64.726-1.64 1.64v17.836c0 .914.703 1.64 1.64 1.64"
+        ></path>
+        <path
+          fill="currentColor"
+          class="pill5 wave5 fill-green-300"
+          d="M45.05 33.363c.938 0 1.641-.75 1.641-1.664V23.3c0-.914-.703-1.664-1.64-1.664c-.938 0-1.64.726-1.64 1.64v9.398c0 .914.703 1.664 1.64 1.664"
+        ></path>
+        <path
+          fill="currentColor"
+          class="pill6 wave6 fill-green-500"
+          d="M11.973 31.512c.937 0 1.64-.727 1.64-1.64v-5.743c0-.914-.703-1.64-1.64-1.64c-.961 0-1.664.726-1.664 1.64v5.742c0 .914.703 1.64 1.664 1.64"
+        ></path>
+      </svg>
+    </div>
+  </div>
+  <iframe
+    title="Spotify Embedd"
+    loading="eager"
+    aria-label="Spotify - Last Played"
+    style="border-radius:12px"
+    src="https://open.spotify.com/embed/track/0zPrUlxLjuowg4XzqILpQX?utm_source=generator"
+    width="100%"
+    height="152"
+    allowfullscreen=""
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  ></iframe>
+</main>
+
+<style>
+  @keyframes pill1-animation {
+    0% {
+      transform: scaleY(1);
+    }
+    25% {
+      transform: scaleY(1.2);
+    }
+    50% {
+      transform: scaleY(0.8);
+    }
+    75% {
+      transform: scaleY(1.2);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  @keyframes pill2-animation {
+    0% {
+      transform: scaleY(1);
+    }
+    25% {
+      transform: scaleY(1.3);
+    }
+    50% {
+      transform: scaleY(0.7);
+    }
+    75% {
+      transform: scaleY(1.3);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  @keyframes pill3-animation {
+    0% {
+      transform: scaleY(1);
+    }
+    25% {
+      transform: scaleY(1.1);
+    }
+    50% {
+      transform: scaleY(0.9);
+    }
+    75% {
+      transform: scaleY(1.1);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  @keyframes pill4-animation {
+    0% {
+      transform: scaleY(1);
+    }
+    25% {
+      transform: scaleY(1.4);
+    }
+    50% {
+      transform: scaleY(0.6);
+    }
+    75% {
+      transform: scaleY(1.4);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  @keyframes pill5-animation {
+    0% {
+      transform: scaleY(1);
+    }
+    25% {
+      transform: scaleY(1.5);
+    }
+    50% {
+      transform: scaleY(0.5);
+    }
+    75% {
+      transform: scaleY(1.5);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  @keyframes pill6-animation {
+    0% {
+      transform: scaleY(1);
+    }
+    25% {
+      transform: scaleY(1.2);
+    }
+    50% {
+      transform: scaleY(0.8);
+    }
+    75% {
+      transform: scaleY(1.2);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  .pill1 {
+    animation: pill1-animation 2s infinite ease-in-out;
+  }
+  .pill2 {
+    animation: pill2-animation 2s infinite ease-in-out;
+  }
+  .pill3 {
+    animation: pill3-animation 2s infinite ease-in-out;
+  }
+  .pill4 {
+    animation: pill4-animation 2s infinite ease-in-out;
+  }
+  .pill5 {
+    animation: pill5-animation 2s infinite ease-in-out;
+  }
+  .pill6 {
+    animation: pill6-animation 2s infinite ease-in-out;
+  }
+</style>

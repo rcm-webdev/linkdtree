@@ -1,0 +1,36 @@
+   _____
+  |  __ \
+  | |__) |
+  |  _  /
+  | | \ \
+  |_|  \_\
+
+
+
+The humans.txt file explains the team, technology,
+and graphic assets behind this site humanstxt.org.
+_______________________________________________________________________________
+
+DEVELOPER | DESIGNER 
+
+Roberto Murillo
+Hand crafted/modified design & web development
+
+
+twitter.com/rcmwdev
+github.com/rcm-webdev
+
+
+_______________________________________________________________________________
+
+TECHNOLOGY | 
+
+Astro
+Framer Motion
+
+_______________________________________________________________________________
+
+FONTS | 
+
+JetBrains
+Inter

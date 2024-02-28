@@ -1,0 +1,42 @@
+---
+import { Icon } from "astro-icon/components";
+
+const { title, list, list_2, url_name, url } = Astro.props;
+---
+
+<div
+  class="grid grid-cols-3 grid-rows-1 w-full p-2 place-items-center border-b-[1px] border-dashed py-8 border-text/25"
+>
+  <div class="self-start justify-self-start">
+    <p class="text-text/50 text-base">
+      {title}
+    </p>
+  </div>
+
+  <div class="ml-6 self-start justify-self-start text-left">
+    <p>
+      <ul>
+        {
+          list?.map((item: string) => (
+            <li class="list-disc text-md text-text/70">{item}</li>
+          ))
+        }
+      </ul>
+    </p>
+
+    <p class="mt-5">
+      <ul></ul>
+    </p>
+  </div>
+
+  <div class="self-start justify-self-end">
+    <a
+      href={url}
+      target="_blank"
+      class="text-base text-right text-text/60 hover:text-text/80 flex justify-center items-center"
+    >
+      {url_name}
+      {url !== "#" && <Icon name="mdi:chevron-right" class="w-4 h-4 ml-2" />}
+    </a>
+  </div>
+</div>

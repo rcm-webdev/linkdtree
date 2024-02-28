@@ -1,0 +1,65 @@
+---
+import Image from "astro/components/Image.astro";
+import abstract1 from "../assets/img/abstract1.webp";
+import abstract3 from "../assets/img/abstract3.webp";
+
+const featured = [
+  {
+    name: "",
+    href: "",
+    img: "",
+    desc: "",
+  },
+];
+---
+
+<main>
+  <div class="relative">
+    <a href="/business-inquiry" class="block">
+      <Image
+        alt={"Website Creation"}
+        src={abstract1}
+        loading={"eager"}
+        class={"h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"}
+      />
+
+      <div
+        class="absolute inset-0 flex items-center justify-center bg-white bg-opacity-50 rounded-xl backdrop-filter backdrop-blur-lg"
+      >
+        <p class="text-black text-3xl font-bold">Website Creation</p>
+      </div>
+    </a>
+  </div>
+  <div class="mt-4 sm:flex sm:items-center sm:justify-center sm:gap-4">
+    <strong class="font-medium">Need a website?</strong>
+
+    <span class="hidden sm:block sm:h-px sm:w-8 sm:bg-[#EB631B]"></span>
+
+    <p class="mt-0.5 opacity-50 sm:mt-0">Website solutions for your business</p>
+  </div>
+
+  <div class="relative mt-5">
+    <a href="/dev" class="block">
+      <Image
+        alt={"Website Creation"}
+        src={abstract3}
+        loading={"eager"}
+        class={"h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"}
+      />
+      <div
+        class="absolute inset-0 flex items-center justify-center bg-white bg-opacity-50 rounded-xl backdrop-filter backdrop-blur-lg"
+      >
+        <p class="text-black text-3xl font-bold text-center">Dev for Hire</p>
+      </div>
+    </a>
+  </div>
+  <div class="mt-4 sm:flex sm:items-center sm:justify-center sm:gap-4">
+    <strong class="font-medium">Need a developer?</strong>
+
+    <span class="hidden sm:block sm:h-px sm:w-8 sm:bg-[#EB631B]"></span>
+
+    <p class="mt-0.5 opacity-50 sm:mt-0">
+      I am your next full-stack software engineer
+    </p>
+  </div>
+</main>

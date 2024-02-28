@@ -1,0 +1,39 @@
+---
+import { Icon } from "astro-icon/components";
+
+const icons = [
+  { name: "ri:twitter-x-fill", link: "https://twitter.com", social: "Twitter" },
+  {
+    name: "ri:linkedin-box-fill",
+    link: "https://linkedin.com",
+    social: "LinkedIn",
+  },
+  { name: "ri:github-fill", link: "https://github.com", social: "GitHub" },
+  {
+    name: "simple-icons:hashnode",
+    link: "https://hashnode.com",
+    social: "Hashnode",
+  },
+];
+---
+
+<main class="mx-auto mb-5">
+  <div class="flex flex-row gap-2">
+    {
+      icons.map((icon) => (
+        <>
+          <a
+            href={`${icon.link}`}
+            target="_blank"
+            aria-label={`${icon.social}`}
+          >
+            <Icon
+              name={icon.name}
+              class="h-8 w-8 text-[#EBEBDF] hover:text-[#AAC4E7] opacity-75 hover:opacity-100"
+            />
+          </a>
+        </>
+      ))
+    }
+  </div>
+</main>

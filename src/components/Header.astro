@@ -1,0 +1,52 @@
+---
+import * as CONTENT from "../pages/content";
+import { Icon } from "astro-icon/components";
+---
+
+<!-- Hero section -->
+<header class="mx-auto py-8">
+  <article
+    class="grid grid-cols-3 grid-rows-1 place-items-center w-[98vw] max-w-2xl"
+  >
+    <div
+      class="rounded-full border-primary self-end shadow-2xl md:w-24 w-20 aspect-square"
+    >
+      <a href="/">
+        <img
+          src="/profile.jpg"
+          alt="profile_picture"
+          class="object-cover w-full h-full rounded-full grayscale-[50] hover:grayscale-0"
+        /></a
+      >
+    </div>
+
+    <div class="grid text-center self-center whitespace-nowrap">
+      <h1 class="text-3xl text-text"><a href="/">{CONTENT.name}</a></h1>
+      <div class="flex flex-row gap-2 justify-center items-center">
+        <h3 class="text-lg text-text/75">{CONTENT.designation}</h3>
+        <Icon name="ri:code-s-slash-fill" class="h-5 w-5 text-[#EB631B]" />
+      </div>
+      <h5 class="text-sm text-text/65">{CONTENT.location}</h5>
+    </div>
+
+    <div class="md:grid text-right self-end hidden">
+      <h6 class="text-sm text-text/70">{CONTENT.pronouns}</h6>
+      <div class="flex items-baseline gap-2">
+        <span class="relative flex h-2 w-2">
+          <span
+            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"
+          ></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"
+          ></span>
+        </span>
+        <h6 class="text-sm text-text/70">
+          <a
+            href={CONTENT.resume}
+            class="underline underline-offset-8 hover:text-[#AAC4E7]"
+            >{CONTENT.availability}</a
+          >
+        </h6>
+      </div>
+    </div>
+  </article>
+</header>
