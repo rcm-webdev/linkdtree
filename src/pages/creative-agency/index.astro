@@ -5,6 +5,7 @@ import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 
 import Socials from "../../components/Socials.astro";
+import Container from "../../components/Container.astro";
 ---
 
 <html lang="en">
@@ -37,12 +38,10 @@ import Socials from "../../components/Socials.astro";
     <main
       class="mx-auto flex-grow max-h-[90vh] md:max-h-[70vh] max-w-max overflow-y-scroll grid gap-5 p-5 w-[95vw]"
     >
-      <iframe
-        src="http://127.0.0.1:5500/src/index.html"
-        width="800"
-        height="600"
-        class="mx-auto">Loading...</iframe
-      >
+      <div class="flex flex-col items-center leading-10">
+        <h1 class="text-4xl">{CONTENT.h1}</h1>
+        <h6>{CONTENT.subtitle}</h6>
+      </div>
     </main>
 
     <Footer />

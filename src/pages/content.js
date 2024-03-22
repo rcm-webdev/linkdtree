@@ -16,6 +16,10 @@ export const resume_name = "Resumé";
 export const availability = "Available for work";
 export const footer_icon = "mdi:cards-playing-heart-multiple";
 
+//Website Creation --> #hero section
+export const h1 = "Let us build your next website ";
+export const subtitle = "We will help you build your online business";
+
 // About
 export const about =
   "I build websites and web applications for my community through 100devs";
