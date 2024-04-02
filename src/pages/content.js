@@ -18,7 +18,7 @@ export const footer_icon = "mdi:cards-playing-heart-multiple";
 
 // About
 export const about =
-  "I build websites and web applications for my community through";
+  "I build websites and web applications for my community through 100devs";
 
 // Work Experience --> #work section
 export const work = [
@@ -29,7 +29,7 @@ export const work = [
     org: "100DEVS",
     org_url: "https://100devs.org",
     location: "Los Angeles, CA (Remote)",
-    skills: "Web Development",
+    skills: "Web Development & Contract Work",
   },
   {
     from: "2023",
@@ -38,7 +38,7 @@ export const work = [
     org: "95 Designs",
     org_url: "https://100devs.org",
     location: "Spokane, WA (Remote)",
-    skills: "Web Development + Web Design",
+    skills: "Web Development & Web Design",
   },
 ];
 
