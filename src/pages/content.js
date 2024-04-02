@@ -8,7 +8,7 @@ export const formattedDate = today.toLocaleDateString("en-US", {
 // Personal Information --> #hero section
 export const name = "Roberto Murillo";
 export const website = "RCM CODES";
-export const designation = "Software Engineer";
+export const designation = "Fullstack Software Engineer";
 export const location = "Based in Spokane WA";
 export const pronouns = "he/him";
 export const resume = "/contact-dev";
